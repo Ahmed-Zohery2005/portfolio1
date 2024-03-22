@@ -1,0 +1,110 @@
+header {
+    text-align: center;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.about {
+    background-color: rgb(129, 247, 216);
+}
+
+table {
+    background-color: rgb(0, 128, 255);
+}
+
+.Porjects {
+    background-color: rgb(92, 145, 198);
+    color: rgb(82, 28, 5);
+}
+
+th {
+    background-color: rgb(229, 66, 216);
+}
+
+body {
+    padding-top: 150px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    background-color: lightgray;
+    color: purple;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+ul.firstorder {
+    list-style: none;
+    padding: 0;
+}
+
+ul.firstorder li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.firstorder {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+    z-index: 9999;
+}
+
+.watermark img {
+    display: block;
+    width: 300px;
+}
+
+h3 {
+    margin-top: 80px;
+    color: green;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+th {
+    font-size: unset;
+}
+
+tbody {
+    text-align: center;
+}
+
+footer {
+    font-size: 75%;
+    color: rgba(255, 0, 0, 0.789);
+}
+.contact{
+    background-color: rgba(86, 66, 82, 0.466);
+}
